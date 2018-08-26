@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("omer3omer/hellonode:${env.BUILD_NUMBER}")
+        app = docker.build("omer4omer/hellonode:${env.BUILD_NUMBER}")
     }
 
     stage('Test image') {
